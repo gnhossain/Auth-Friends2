@@ -2,37 +2,70 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav{
+  background-color: steelblue;
+  padding:2%;
+  margin:2% 0;
+  display:flex;
+  justify-content: space-around;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav a{
+  color:black;
+  font-weight: 900;
+  text-decoration-style: inherit;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.login-form{
+  width:90%;
+  padding:2%;
+  margin:2% auto;
+  display:flex;
+  justify-content: space-around;
+}
+
+form ::placeholder{
+  color: black;
+  padding:5px;
+  background-color: steelblue;
+}
+
+button{
+  padding:5px 10px;
+  border-radius:4px;
+  background-color: steelblue;
+  color:black;
+  min-width: fit-content;
+  font-weight: bolder;
+}
+
+.add-friend{
+  width:70%;
+  padding:2%;
+  margin:2% auto;
+  display:flex;
+  justify-content: space-around;
+}
+.friend-list{
+  
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+
+.friend-card{
+  width: 250px;
+  height: 200px;
+  margin: 20px;
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 5%;
+  border: 1px solid steelblue;
+  padding: 15px;
+  background-color: oldlace;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
