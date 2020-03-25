@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.nav{
+  background-color: steelblue;
+  padding:2%;
+  margin:2% 0;
+  display:flex;
+  justify-content: space-around;
+}
+
+.nav a{
+  color:black;
+  font-weight: 900;
+  text-decoration-style: inherit;
+}
+
+
+.login-form{
+  width:90%;
+  padding:2%;
+  margin:2% auto;
+  display:flex;
+  justify-content: space-around;
+}
+
+form ::placeholder{
+  color: black;
+  padding:5px;
+  background-color: steelblue;
+}
+
+button{
+  padding:5px 10px;
+  border-radius:4px;
+  background-color: steelblue;
+  color:black;
+  min-width: fit-content;
+  font-weight: bolder;
+}
+
+.add-friend{
+  width:70%;
+  padding:2%;
+  margin:2% auto;
+  display:flex;
+  justify-content: space-around;
+}
+.friend-list{
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.friend-card{
+  width: 250px;
+  height: 200px;
+  margin: 20px;
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 5%;
+  border: 1px solid steelblue;
+  padding: 15px;
+  background-color: oldlace;
+
+}
+
+
+
